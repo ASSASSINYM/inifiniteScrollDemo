@@ -17,6 +17,20 @@
 		652CAFF425886091007A4C3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAFF325886091007A4C3D /* main.m */; };
 		652CAFFE25886092007A4C3D /* InfiniteScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAFFD25886092007A4C3D /* InfiniteScrollDemoTests.m */; };
 		652CB00925886092007A4C3D /* InfiniteScrollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CB00825886092007A4C3D /* InfiniteScrollDemoUITests.m */; };
+		652CB01C258860D6007A4C3D /* MTCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CB01B258860D6007A4C3D /* MTCarouselView.m */; };
+		652CB0252588611C007A4C3D /* MTCarouselModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CB0242588611C007A4C3D /* MTCarouselModel.m */; };
+		652CB02B25886153007A4C3D /* MTCarouselBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CB02A25886153007A4C3D /* MTCarouselBaseModel.m */; };
+		652CB030258862A8007A4C3D /* MTCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652CB02F258862A8007A4C3D /* MTCarouselView.xib */; };
+		652CB0362588634E007A4C3D /* UIView+CellIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CB0352588634E007A4C3D /* UIView+CellIdentifier.m */; };
+		652CB040258863B6007A4C3D /* MTCarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CB03E258863B6007A4C3D /* MTCarouselCell.m */; };
+		652CB041258863B6007A4C3D /* MTCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652CB03F258863B6007A4C3D /* MTCarouselCell.xib */; };
+		652CB047258864F7007A4C3D /* MTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CB046258864F7007A4C3D /* MTPageControl.m */; };
+		6565E5152588908F00B73C6E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E50F2588908E00B73C6E /* 1.jpg */; };
+		6565E5172588908F00B73C6E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E5112588908F00B73C6E /* 4.jpg */; };
+		6565E5182588908F00B73C6E /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E5122588908F00B73C6E /* 6.jpg */; };
+		6565E5192588908F00B73C6E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E5132588908F00B73C6E /* 3.jpg */; };
+		6565E51A2588908F00B73C6E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E5142588908F00B73C6E /* 5.jpg */; };
+		6565E5222588916800B73C6E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E5212588916700B73C6E /* 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +70,26 @@
 		652CB00425886092007A4C3D /* InfiniteScrollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		652CB00825886092007A4C3D /* InfiniteScrollDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollDemoUITests.m; sourceTree = "<group>"; };
 		652CB00A25886092007A4C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652CB01A258860D6007A4C3D /* MTCarouselView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCarouselView.h; sourceTree = "<group>"; };
+		652CB01B258860D6007A4C3D /* MTCarouselView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCarouselView.m; sourceTree = "<group>"; };
+		652CB0232588611C007A4C3D /* MTCarouselModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCarouselModel.h; sourceTree = "<group>"; };
+		652CB0242588611C007A4C3D /* MTCarouselModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCarouselModel.m; sourceTree = "<group>"; };
+		652CB02925886153007A4C3D /* MTCarouselBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCarouselBaseModel.h; sourceTree = "<group>"; };
+		652CB02A25886153007A4C3D /* MTCarouselBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCarouselBaseModel.m; sourceTree = "<group>"; };
+		652CB02F258862A8007A4C3D /* MTCarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTCarouselView.xib; sourceTree = "<group>"; };
+		652CB0342588634E007A4C3D /* UIView+CellIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CellIdentifier.h"; sourceTree = "<group>"; };
+		652CB0352588634E007A4C3D /* UIView+CellIdentifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CellIdentifier.m"; sourceTree = "<group>"; };
+		652CB03D258863B6007A4C3D /* MTCarouselCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCarouselCell.h; sourceTree = "<group>"; };
+		652CB03E258863B6007A4C3D /* MTCarouselCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCarouselCell.m; sourceTree = "<group>"; };
+		652CB03F258863B6007A4C3D /* MTCarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTCarouselCell.xib; sourceTree = "<group>"; };
+		652CB045258864F7007A4C3D /* MTPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPageControl.h; sourceTree = "<group>"; };
+		652CB046258864F7007A4C3D /* MTPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPageControl.m; sourceTree = "<group>"; };
+		6565E50F2588908E00B73C6E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6565E5112588908F00B73C6E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		6565E5122588908F00B73C6E /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		6565E5132588908F00B73C6E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		6565E5142588908F00B73C6E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		6565E5212588916700B73C6E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +140,7 @@
 		652CAFDD2588608D007A4C3D /* InfiniteScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				652CB019258860AB007A4C3D /* 广告轮播 */,
 				652CAFDE2588608D007A4C3D /* AppDelegate.h */,
 				652CAFDF2588608D007A4C3D /* AppDelegate.m */,
 				652CAFE12588608D007A4C3D /* SceneDelegate.h */,
@@ -138,6 +173,33 @@
 				652CB00A25886092007A4C3D /* Info.plist */,
 			);
 			path = InfiniteScrollDemoUITests;
+			sourceTree = "<group>";
+		};
+		652CB019258860AB007A4C3D /* 广告轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				6565E50F2588908E00B73C6E /* 1.jpg */,
+				6565E5212588916700B73C6E /* 2.jpg */,
+				6565E5132588908F00B73C6E /* 3.jpg */,
+				6565E5112588908F00B73C6E /* 4.jpg */,
+				6565E5142588908F00B73C6E /* 5.jpg */,
+				6565E5122588908F00B73C6E /* 6.jpg */,
+				652CB01A258860D6007A4C3D /* MTCarouselView.h */,
+				652CB01B258860D6007A4C3D /* MTCarouselView.m */,
+				652CB02F258862A8007A4C3D /* MTCarouselView.xib */,
+				652CB0232588611C007A4C3D /* MTCarouselModel.h */,
+				652CB0242588611C007A4C3D /* MTCarouselModel.m */,
+				652CB02925886153007A4C3D /* MTCarouselBaseModel.h */,
+				652CB02A25886153007A4C3D /* MTCarouselBaseModel.m */,
+				652CB0342588634E007A4C3D /* UIView+CellIdentifier.h */,
+				652CB0352588634E007A4C3D /* UIView+CellIdentifier.m */,
+				652CB03D258863B6007A4C3D /* MTCarouselCell.h */,
+				652CB03E258863B6007A4C3D /* MTCarouselCell.m */,
+				652CB03F258863B6007A4C3D /* MTCarouselCell.xib */,
+				652CB045258864F7007A4C3D /* MTPageControl.h */,
+				652CB046258864F7007A4C3D /* MTPageControl.m */,
+			);
+			path = "广告轮播";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +304,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6565E51A2588908F00B73C6E /* 5.jpg in Resources */,
 				652CAFF125886091007A4C3D /* LaunchScreen.storyboard in Resources */,
+				6565E5222588916800B73C6E /* 2.jpg in Resources */,
+				652CB041258863B6007A4C3D /* MTCarouselCell.xib in Resources */,
+				652CB030258862A8007A4C3D /* MTCarouselView.xib in Resources */,
+				6565E5152588908F00B73C6E /* 1.jpg in Resources */,
+				6565E5192588908F00B73C6E /* 3.jpg in Resources */,
 				652CAFEE25886091007A4C3D /* Assets.xcassets in Resources */,
+				6565E5182588908F00B73C6E /* 6.jpg in Resources */,
+				6565E5172588908F00B73C6E /* 4.jpg in Resources */,
 				652CAFE92588608D007A4C3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +340,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				652CAFF425886091007A4C3D /* main.m in Sources */,
+				652CB047258864F7007A4C3D /* MTPageControl.m in Sources */,
+				652CB01C258860D6007A4C3D /* MTCarouselView.m in Sources */,
+				652CB0252588611C007A4C3D /* MTCarouselModel.m in Sources */,
+				652CB0362588634E007A4C3D /* UIView+CellIdentifier.m in Sources */,
+				652CB02B25886153007A4C3D /* MTCarouselBaseModel.m in Sources */,
 				652CAFE62588608D007A4C3D /* ViewController.m in Sources */,
+				652CB040258863B6007A4C3D /* MTCarouselCell.m in Sources */,
 				652CAFEC2588608D007A4C3D /* InfiniteScrollDemo.xcdatamodeld in Sources */,
 				652CAFE02588608D007A4C3D /* AppDelegate.m in Sources */,
 				652CAFE32588608D007A4C3D /* SceneDelegate.m in Sources */,
